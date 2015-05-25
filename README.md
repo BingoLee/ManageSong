@@ -1,2 +1,2 @@
 # ManageSong
-To manage that a GuessSong game by my friend.
+To manage a game which nameed GuessSong that made of my friend.
