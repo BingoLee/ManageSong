@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body li{
+	list-style-type:none;
+}
+.fr{
+	float:right;
+}
+.fl{
+	float: left;
+}
+.title{
+	color:white;
+	font-size:24px;
+	margin:0px 0 0 0;
+	font-weight:bold;
+	margin:30px 0 0 0;
+}
+/*
+***左边栏样式
+*/
+#left{
+	width:15%;
+	float:left;
+}
+#left .goods-message{
+	margin:30px 0 0 30px;
+}
+#left .goods-message li{
+	margin:10px 0 0 30px;
+}
+#left span{
+	cursor:pointer;
+}
+#left a{
+	color:black;
+}
+#left a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+/*
+***右边栏样式
+*/
+#right{
+	width:85%;
+	float:left;
+}
+#right .title-name{
+	background:#CBCBCB;
+	height:30px;
+	font-size:18px;
+	color:black;
+	border-left:1px solid #4F5153;
+	padding:0 0 0 20px;
+}
+/*.center table{
+	background:#CCC;
+	margin:8% 0 0 20%;
+	border:1px solid black;
+	text-align:center;
+	width:700px;
+}*/
+#right input{
+	width:60%;
+}
+#right .showfood table{
+	width:800px;
+	text-align:center;
+}
+#right .showfood img{
+	width:150px;
+	height:100%;
+}
+/**新增操作*/
+.add-form form{
+	margin-left: 20%;
+}
+/*更新操作的表单*/
+.update-form{
+	width:50%;
+	height:50%;
+	background: #ccc;
+	z-index: 1200;
+	left:30%;
+	top:40%;
+	position: absolute;
+}
+.update-form form{
+	width:50%;
+	margin-left:20%;
+
+}
+/*登陆界面*/
+.login{
+	width:30%;
+	position: absolute;
+	left:35%;
+	top:30%;
+}
+.login form{
+	position: relative;
+	top:10px;
+}
+/*验证码*/
+#captcha-container input{
+	width:200px;
+	float:left;
+}
+#captcha-container img{
+	float:left;
+}
